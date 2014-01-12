@@ -1,3 +1,6 @@
-name: My New Jekyll Site
-markdown: redcarpet
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://ablejec.github.io/blog
+author: Andrej Blejec
 pygments: true
+
