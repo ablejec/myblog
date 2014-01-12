@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://ablejec.github.io/blog
+url: http://ablejec.github.io/myblog
 author: Andrej Blejec
 pygments: true
 
