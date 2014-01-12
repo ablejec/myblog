@@ -8,7 +8,7 @@ tags:
 - R code
 ---
 
-Years ago I wrote a WinEdt script to tidy up a R source. I was not happy with loss of comments in the R obvious solutions at that time. This is a reminder for a Jihui blog about this question. Here is, what he is using:
+Years ago I wrote a WinEdt script to tidy up a R source. I was not happy with loss of comments in the R obvious solutions at that time. This is a reminder for a [Jihui Xie blog post](http://yihui.name/en/2007/08/tidy-up-your-r-code/)  about this question. Here is, what he is using:
 
 {% highlight r %}
 tidy.source = function(file = choose.files()) {
