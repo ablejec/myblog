@@ -15,15 +15,6 @@ layout: page
     <p>{{ post.excerpt }} &nbsp; 
 <div align="right"> 
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &nbsp;
-{% if page.tags %}
-<span class="tags">
-  tagged with 
-  {% for tag in page.tags %}
-  <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
-  {% endfor %}
-</span>
-{% endif %}
-
 <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">more...</a></div>
 </p>
   </li>
