@@ -11,10 +11,11 @@ layout: page
     <li class="listing-seperator">{{ y }}</li>
   {% endif %}
   <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+       <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     <p>{{ post.excerpt }} &nbsp; 
-<div align="right"> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">more...</a></div>
+<div align="right"> 
+<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &nbsp;
+<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">more...</a></div>
 </p>
   </li>
 {% endfor %}
