@@ -15,7 +15,6 @@ layout: page
     <p>{{ post.excerpt }} &nbsp; 
 <div align="right"> 
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &nbsp;
-tags: 
 {% if page.tags %}
 <span class="tags">
   tagged with 
