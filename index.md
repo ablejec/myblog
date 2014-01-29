@@ -13,8 +13,8 @@ layout: page
   <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <p>{{ post.excerpt }} <\p>
-<span class="more"> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"> more . . .]</a></span>
+    <p>{{ post.excerpt }} </p>
+<span class="more"> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"> [more...]</a></span>
 
   </li>
 {% endfor %}
