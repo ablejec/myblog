@@ -6,7 +6,7 @@ layout: page
 <ul class="tags">
 {% for category in site.categories %}
     <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
-        <a class="tag"  href="/categories/#{{ category | first | slugize }}/">
+        <a class="tag"  href="/myblog/categories/#{{ category | first | slugize }}/">
             {{ category | first }}
         </a>
     </li>
