@@ -2,6 +2,7 @@
 title: About statistics, R, graphics and ...
 layout: page
 ---
+
 <ul class="tags">
 {% for category in site.categories %}
     <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
@@ -10,7 +11,7 @@ layout: page
         </a>
     </li>
 {% endfor %}
-<\ul>
+</ul>
 
 <ul class="listing">
 {% for post in site.posts %}
