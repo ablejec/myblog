@@ -12,12 +12,7 @@ layout: page
   {% endif %}
   <li class="listing-item">
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <p>{{ post.excerpt }} &nbsp; 
-<div align="right"> 
-<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &nbsp;
-<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">more...</a></div>
-<hr>
-</p>
+    </p>
   </li>
 {% endfor %}
 </ul>
