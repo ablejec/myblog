@@ -2,7 +2,7 @@
 layout: post
 title: Tag and categories clouds on right
 categories:
-- [how-to, jekyll]
+- how-to jekyll
 tags:
 - jekyll 
 - how-to
