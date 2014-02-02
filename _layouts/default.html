@@ -29,7 +29,11 @@
         <span><a title="links" class="" href="{{ site.url }}/links/">links</a></span>
         <span><a title="subscribe by RSS" class="" href="{{ site.url }}/feed/">subscribe</a></span>
         </nav>
-        <section id="sidebar">
+
+        <article class="content">
+        {{ content }}
+        </article>  
+                <section id="sidebar">
           <aside>
           CATEGORIES
                 <ul class="tags">
@@ -45,9 +49,6 @@
           </aside>
         </section>
 
-        <article class="content">
-        {{ content }}
-        </article>  
       </div>
 
     </div>
