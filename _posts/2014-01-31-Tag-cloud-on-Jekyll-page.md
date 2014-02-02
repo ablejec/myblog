@@ -3,6 +3,7 @@ layout: post
 title: Tag cloud on Jekyll page
 categories:
 - jekyll
+- how-to
 tags:
 - tag
 - how-to
