@@ -48,7 +48,7 @@
     
     TAGS ...
     <ul class="tags">
-    {% for category in site.categories %}
+    {% for tag in site.tagss %}
     <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70 }}%">
         <a class="tag"  href="/myblog/tags/#{{ tag | first | slugize }}/">
             {{ tag | first }}
