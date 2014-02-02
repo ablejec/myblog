@@ -35,7 +35,7 @@
         </article>  
                 <section id="sidebar">
           <aside>
-    <span class="header"> categories ...</span>
+    <span class="header"> Categories ...</span>
     <ul class="tags">
     {% for category in site.categories %}
     <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
@@ -46,9 +46,9 @@
     {% endfor %}
     </ul>
     
-    TAGS ...
+    <span class="header"> Tags ...</span>
     <ul class="tags">
-    {% for tag in site.tagss %}
+    {% for tag in site.tags %}
     <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70 }}%">
         <a class="tag"  href="/myblog/tags/#{{ tag | first | slugize }}/">
             {{ tag | first }}
