@@ -4,10 +4,12 @@ title: BibTeX author filed converter
 categories:
 - R language
 - LaTeX
+- how-to
 tags:
 - BibTeX
 - LaTeX
 - R code
+- how-to
 ---
 
 I am organizing my BibTeX files with Jabref. For Jabref the proper syntax for the author field for multiple authors is `Last1, First1 and Last2, First2` (and delimited). Often the list of authors is composed as `First1 Last1, First2 Last2` (comma delimited).
