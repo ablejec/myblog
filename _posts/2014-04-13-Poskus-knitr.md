@@ -10,10 +10,9 @@ tags:
 - R code
 - how-to
 ---
-This is just a test :)
-
 # Primer uporabe knitr
 ## Author: A. Blejec
+This is Just a test :)
 
 ## Abstract
 Poskusna datoteka za uporabo Sweave: povezava \R\ in \LaTeX.
