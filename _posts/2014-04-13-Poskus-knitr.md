@@ -3,9 +3,7 @@ layout: post
 title: Primer uporabe knitr
 categories:
 - R language
-- markdown
 - how-to
-- test
 tags:
 - R code
 - how-to
