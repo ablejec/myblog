@@ -3,7 +3,9 @@ layout: post
 title: Primer uporabe knitr
 categories:
 - R language
+- markdown
 - how-to
+- test
 tags:
 - R code
 - how-to
@@ -84,82 +86,6 @@ Na primer:\\ Verjetnost $p=0.003$.
 ## Tabele
 
 Za pripravo **tabel** z \LaTeX\ je prirocno namestiti paket \texttt{Hmisc}
-
-
-{% highlight r %}
-library("Hmisc")
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Warning: package 'Hmisc' was built under R version 3.0.3
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Loading required package: grid
-## Loading required package: lattice
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Warning: package 'lattice' was built under R version 3.0.3
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Loading required package: survival
-## Loading required package: splines
-## Loading required package: Formula
-## 
-## Attaching package: 'Hmisc'
-## 
-## The following objects are masked from 'package:base':
-## 
-##     format.pval, round.POSIXt, trunc.POSIXt, units
-{% endhighlight %}
-
-
-
-{% highlight r %}
-tbl <- table(letters[round(runif(100, 1, 3))], LETTERS[round(runif(100, 1, 3))])
-tbl
-{% endhighlight %}
-
-
-
-{% highlight text %}
-##    
-##      A  B  C
-##   a  4  7  2
-##   b 10 34 15
-##   c  6 16  6
-{% endhighlight %}
-
-Tabele lahko izpiše tudi \LaTeX:
-
-{% highlight r %}
-latex(tbl, file = "", where = "!htbp", caption = "Poskusna tabela")
-{% endhighlight %}
-
-%latex.default(tbl, file = "", where = "!htbp", caption = "Poskusna tabela")%
-\begin{table}[!htbp]
-\caption{Poskusna tabela\label{tbl}} 
-\begin{center}
-\begin{tabular}{lrrr}
-\hline\hline
-\multicolumn{1}{l}{tbl}&\multicolumn{1}{c}{A}&\multicolumn{1}{c}{B}&\multicolumn{1}{c}{C}\tabularnewline
-\hline
-a&$ 4$&$ 7$&$ 2$\tabularnewline
-b&$10$&$34$&$15$\tabularnewline
-c&$ 6$&$16$&$ 6$\tabularnewline
-\hline
-\end{tabular}\end{center}\end{table}
-
 
 ## Zakljucek
 
